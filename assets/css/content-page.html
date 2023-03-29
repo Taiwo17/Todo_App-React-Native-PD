@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html class="" lang="tr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>MAPTO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+	<link href="css/app.css" rel="stylesheet">
+	    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+	<body>
+<meta name="robots" content="noindex"> <meta name="googlebot" content="noindex">
+	<section class="app-download-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-row justify-content-start align-items-center">
+                <i class="fal fa-times mr-3 app-download-bar__close"></i>
+                <img src="../images/logo-icon-white.svg" class="app-download-bar__logo" alt="logo">
+                <div class="app-download-bar__content">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-row justify-content-start align-items-end">
+                            <img src="../images/logo-original-text.svg" class="content__logo" alt="logo">
+                        </div>
+                        <div class="col-12">
+                            <p class="content__text">Uygulamasını telefonunuza indererek daha rahat gezinebilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+               <a href="javascript:void(0)" class="app-download-bar__link">indir</a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+	<section id="topBar">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 search">
+                <form class="dropdown-toggle">
+                    <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                    <div class="dropdown">
+                        <input class="form-control mr-sm-2 dropdown-toggle" data-toggle="dropdown" type="search" placeholder="Search" aria-label="Search">
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="javascript:void(0)"><i class="far fa-cheeseburger"></i>Fast Food</a></li>
+                                <li><a href="javascript:void(0)"><i class="far fa-tools"></i>Tamirci</a></li>
+                                <li><a href="javascript:void(0)"><i class="far fa-camera-movie"></i>Sinema</a></li>
+                                <li><a href="javascript:void(0)"><i class="far fa-pie"></i>Tatlı</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-4 col-lg-5 new-company">
+                <p><strong>Yeni:</strong> Firma adı ticaret ltd şti Aramıza katıldı.</p>
+            </div>
+            <div class="col-xl-5 col-lg-7 d-flex flex-row align-items-center justify-content-end">
+                <div class="dropdown lang-switch">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../images/en.svg" alt="">
+                        English
+                        <i class="far fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                            <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                            <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                            <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sign-group">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#add-company"><i class="far fa-plus"></i>firma ekle</button>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#sign-in"><i class="far fa-user-plus"></i>oturum aç</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<header id="desktopHeader">
+    <div class="container">
+        <nav class="desktop__navbar">
+            <div class="desktop__logo">
+                <a href="index.html"><img src="../images/logo.svg" alt=""></a>
+            </div>
+            <ul class="desktop__navbar-nav">
+                <!--    drop-nav-item    -->
+                <li class="desktop__nav-item desktop__navbar-dropmenu">
+                    <a href="javascript:void(0)" class="desktop__nav-link">firmalar</a>
+                    <!--    submenu    -->
+                    <div class="desktop__navbar-dropmenu-container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--    search    -->
+                            <div class="col-4 mx-auto mt-3">
+                                <form action="" class="desktop__navbar-dropmenu-search">
+                                    <input class="form-control" type="search" placeholder="Aradığınız sektörü bulamadınız mı?">
+                                    <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--    drop-nav-item    -->
+                <li class="desktop__nav-item desktop__navbar-dropmenu">
+                    <a href="javascript:void(0)" class="desktop__nav-link">sektörler</a>
+                    <!--    submenu    -->
+                    <div class="desktop__navbar-dropmenu-container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="sectors-column-view.html" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--    search    -->
+                            <div class="col-4 mx-auto mt-3">
+                                <form action="" class="desktop__navbar-dropmenu-search">
+                                    <input class="form-control" type="search" placeholder="Aradığınız sektörü bulamadınız mı?">
+                                    <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--    drop-nav-item    -->
+                <li class="desktop__nav-item desktop__navbar-dropmenu">
+                    <a href="javascript:void(0)" class="desktop__nav-link">şehirler</a>
+                    <!--    submenu    -->
+                    <div class="desktop__navbar-dropmenu-container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul class="desktop__navbar-drop">
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-shopping-cart desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Alışveriş</p>
+                                            <span class="desktop__navbar-drop-piece">12345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-desktop desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Bilgisayar</p>
+                                            <span class="desktop__navbar-drop-piece">34</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-graduation-cap desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Eğitim ve Öğretim</p>
+                                            <span class="desktop__navbar-drop-piece">23345</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-plug desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Elektrik - Elektronik</p>
+                                            <span class="desktop__navbar-drop-piece">3458</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-salad desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Gıda</p>
+                                            <span class="desktop__navbar-drop-piece">38</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-tshirt desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Giyim ve Tekstil</p>
+                                            <span class="desktop__navbar-drop-piece">34528</span>
+                                        </a>
+                                    </li>
+                                    <li class="desktop__navbar-drop-item">
+                                        <a href="javascript:void(0)" class="desktop__navbar-drop-link">
+                                            <i class="far fa-fire desktop__navbar-drop-icon"></i>
+                                            <p class="desktop__navbar-drop-text">Isıtma ve Soğutma</p>
+                                            <span class="desktop__navbar-drop-piece">358</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--    search    -->
+                            <div class="col-4 mx-auto mt-3">
+                                <form action="" class="desktop__navbar-dropmenu-search">
+                                    <input class="form-control" type="search" placeholder="Aradığınız sektörü bulamadınız mı?">
+                                    <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--    nav-item    -->
+                <li class="desktop__nav-item">
+                    <a href="javascript:void(0)" class="desktop__nav-link">ürünler</a>
+                </li>
+                <!--    nav-item    -->
+                <li class="desktop__nav-item">
+                    <a href="javascript:void(0)" class="desktop__nav-link">ilanlar</a>
+                </li>
+                <!--    nav-item    -->
+                <li class="desktop__nav-item">
+                    <a href="javascript:void(0)" class="desktop__nav-link">etkinlikler</a>
+                </li>
+                <!--    nav-item    -->
+                <li class="desktop__nav-item">
+                    <a href="javascript:void(0)" class="desktop__nav-link">firma listesi</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+	<header id="mobileHeader">
+    <div class="container">
+        <nav class="mobile__navbar">
+            <div class="dropdown lang-switch">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="../images/en.svg" alt="">
+                    <i class="far fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                        <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                        <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                        <li><a href="javascript:void(0)"><img src="../images/en.svg" alt="">English</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile__logo">
+                <a href="index.html"><img src="../images/logo.svg" alt=""></a>
+            </div>
+            <div class="mobile__nav-button">
+                <i class="fal fa-bars"></i>
+            </div>
+        </nav>
+        <div class="mobile__search">
+           <div class="row">
+               <div class="col-12">
+                   <form class="dropdown-toggle">
+                       <button class="btn search__btn" type="submit"><i class="far fa-search"></i></button>
+                       <div class="dropdown">
+                           <input class="form-control dropdown-toggle search__input" data-toggle="dropdown" type="search" required placeholder="Ne aramıştınız?">
+                           <div class="dropdown-menu">
+                               <div class="d-flex flex-row justify-content-start align-items-center" style="padding: 0 20px">
+                                   <button class="btn search__btn" type="submit"><i class="far fa-location"></i></button>
+                                   <input class="form-control search__input" type="text" value="İstanbul">
+                               </div>
+                               <ul>
+                                   <li><a href="javascript:void(0)"><i class="far fa-utensils-alt dropdown-menu__icon"></i><p><strong>Restoran</strong> ve Lokantalar Kategorisine Gözat</p></a></li>
+                                   <li><a href="javascript:void(0)"><i class="far fa-utensils-alt dropdown-menu__icon"></i><p><strong>Restoran</strong> Malzemeleri Ürünler Kategorisine Gözat</p></a></li>
+                                   <li><a href="javascript:void(0)"><i class="far fa-utensils-alt dropdown-menu__icon"></i><p><strong>Restoran</strong> Yeme İçme Fırsatları içinde</p></a></li>
+                                   <li><a href="javascript:void(0)"><i class="far fa-utensils-alt dropdown-menu__icon"></i><p><strong>Restoran</strong> Yeme İçme Fırsatları içinde</p></a></li>
+                                   <li><a href="javascript:void(0)"><i class="far fa-utensils-alt dropdown-menu__icon"></i><p><strong>Restoran</strong> Yeme İçme Fırsatları içinde</p></a></li>
+                                   <li><a href="javascript:void(0)"><i class="far fa-utensils-alt dropdown-menu__icon"></i><p><strong>Restoran</strong> Yeme İçme Fırsatları içinde</p></a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </form>
+               </div>
+           </div>
+        </div>
+    </div>
+    <ul class="mobile__navbar-nav">
+        <li class="mobile__nav-button-close mb-2"><i class="fal fa-times mr-2"></i>mapto</li>
+        <!--    drop-nav-item    -->
+        <li class="mobile__nav-item mobile__navbar-dropmenu">
+            <a href="javascript:void(0)" class="mobile__nav-link">firmalar</a>
+            <!--    submenu    -->
+            <div class="mobile__navbar-dropmenu-container" style="top: -55px">
+                <div class="row">
+                    <div class="col-12 mobile__navbar-dropmenu-back"><i class="far fa-arrow-left mr-2"></i>Menu</div>
+                    <!--    search    -->
+                    <div class="col-12 border-bottom mt-3 pb-3">
+                        <form action="" class="mobile__navbar-dropmenu-search">
+                            <input class="form-control" type="search" placeholder="Aradığınız sektörü bulamadınız mı?">
+                            <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="mobile__navbar-drop">
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--    drop-nav-item    -->
+        <li class="mobile__nav-item mobile__navbar-dropmenu">
+            <a href="javascript:void(0)" class="mobile__nav-link">sektörler</a>
+            <!--    submenu    -->
+            <div class="mobile__navbar-dropmenu-container" style="top: -96px">
+                <div class="row">
+                    <div class="col-12 mobile__navbar-dropmenu-back"><i class="far fa-arrow-left mr-2"></i>Menu</div>
+                    <!--    search    -->
+                    <div class="col-12 border-bottom mt-3 pb-3">
+                        <form action="" class="mobile__navbar-dropmenu-search">
+                            <input class="form-control" type="search" placeholder="Aradığınız sektörü bulamadınız mı?">
+                            <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="mobile__navbar-drop">
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--    drop-nav-item    -->
+        <li class="mobile__nav-item mobile__navbar-dropmenu">
+            <a href="javascript:void(0)" class="mobile__nav-link">şehirler</a>
+            <!--    submenu    -->
+            <div class="mobile__navbar-dropmenu-container" style="top: -137px">
+                <div class="row">
+                    <div class="col-12 mobile__navbar-dropmenu-back"><i class="far fa-arrow-left mr-2"></i>Menu</div>
+                    <!--    search    -->
+                    <div class="col-12 border-bottom mt-3 pb-3">
+                        <form action="" class="mobile__navbar-dropmenu-search">
+                            <input class="form-control" type="search" placeholder="Aradığınız sektörü bulamadınız mı?">
+                            <button class="btn" type="submit"><i class="far fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="mobile__navbar-drop">
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-shopping-cart mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Alışveriş</p>
+                                    <span class="mobile__navbar-drop-piece">12345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-desktop mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Bilgisayar</p>
+                                    <span class="mobile__navbar-drop-piece">34</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-graduation-cap mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Eğitim ve Öğretim</p>
+                                    <span class="mobile__navbar-drop-piece">23345</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-plug mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Elektrik - Elektronik</p>
+                                    <span class="mobile__navbar-drop-piece">3458</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-salad mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Gıda</p>
+                                    <span class="mobile__navbar-drop-piece">38</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-tshirt mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Giyim ve Tekstil</p>
+                                    <span class="mobile__navbar-drop-piece">34528</span>
+                                </a>
+                            </li>
+                            <li class="mobile__navbar-drop-item">
+                                <a href="javascript:void(0)" class="mobile__navbar-drop-link">
+                                    <i class="far fa-fire mobile__navbar-drop-icon"></i>
+                                    <p class="mobile__navbar-drop-text">Isıtma ve Soğutma</p>
+                                    <span class="mobile__navbar-drop-piece">358</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--    nav-item    -->
+        <li class="mobile__nav-item">
+            <a href="javascript:void(0)" class="mobile__nav-link">ürünler</a>
+        </li>
+        <!--    nav-item    -->
+        <li class="mobile__nav-item">
+            <a href="javascript:void(0)" class="mobile__nav-link">ilanlar</a>
+        </li>
+        <!--    nav-item    -->
+        <li class="mobile__nav-item">
+            <a href="javascript:void(0)" class="mobile__nav-link">etkinlikler</a>
+        </li>
+        <!--    nav-item    -->
+        <li class="mobile__nav-item">
+            <a href="javascript:void(0)" class="mobile__nav-link">firma listesi</a>
+        </li>
+    </ul>
+</header>
+
+
+	<section class="content-title-bar">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
+				<h1 class="content-title-bar__title">REKLAM servİSİ</h1>
+			</div>
+			<div class="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-center">
+				<nav>
+					<ol class="breadcrumb">
+						
+							
+								<li class="breadcrumb-item"><a href="/index.html">Anasayfa</a></li>
+							
+							
+						
+							
+							
+								<li class="breadcrumb-item">Reklam Servisi</li>
+							
+						
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+	<section class="content-page mt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="row no-gutters">
+						<div class="col-12 upper-img">
+							<img src="../images/content-page.png" class="upper-img__bg" alt="">
+							<img src="../images/logo-white-text.svg" alt="" class="logo">
+						</div>
+					</div>
+					<div class="card content">
+						<div class="row">
+							<div class="col-12">
+								<p>E-ticaretteki ortak Hedefimiz;</p>
+								<br>
+								<p>
+									Uluslararası platformlarda tanınan, Dünya standartlarında, Çağdaş yenilikleri takip eden ve bu yeniliklere öncülük eden,
+									Yurt içinde ve Yurt dışında güvenilir, şeffaf, adil bir ticari platform oluşturmayı Vizyon edinmektir.
+								</p>
+								<br>
+								<p>
+									Bu hedeflerimizi gerçekleştirirken başlıca Sorumluluklarımız;
+									Müşteri memnuniyetini yüksek tutarak, firmalarımızın talep ve önerilerini en iyi şekilde değerlendirmek,
+									Üyelerimizin reklam gelişimine katkı vererek satış hedeflerini yükseltmek,
+									Üyelerimize en iyi hizmeti verebilmek için kendimizi sürekli geliştirmek ve yetkinliklerimizi arttırmak.
+									Ticari rekabet gücünü arttırarak üyelerimizin en iyi hizmete en uygun fiyata sahip olmasını sağlamak,
+									Ülkemizin ihracat kapasitesini arttırmak,
+									Çalışanlarımızın motivasyonunu yüksek tutarak memnuniyetini garanti altına almak,
+									Çalışanın bilgi ve tecrübelerini arttıracak eğitim programlarını desteklemektir.
+								</p>
+								<br>
+								<p>
+									Türkiye’nin her yerinde kurumsal müşteri temsilcisi bulunan Firmadan üyelerine 7/24 destek vererek
+									aradığı ürünleri bulması için kendini sürekli yenilemektedir.
+								</p>
+							</div>
+							<div class="col-lg-8">
+								<p class="font-weight-bold text-uppercase my-3">KURUMSAL BİLGİLER</p>
+								<p>Ünvanı : MAPTO BİLGİ TEKNOLOJİLERİ REKLAM VE TİCARET LİMİTED ŞİRKETİ</p>
+								<p>Adresi : PARK YAŞAM MAVİŞEHİR AVM  Yalı Mah. 6523 sok. No:32 Karşıyaka - İzmir</p>
+								<p>Eposta adresi : bilgi@firmadan.com</p>
+								<p>Vergi Dairesi : ÇİĞLİ</p>
+								<p>Vergi Numarası : 3881341258</p>
+								<p>MERSİS Numarası : 0388134125800001</p>
+								<p>Ticaret Sicil Numarası : 213572</p>
+								<br>
+								<p>
+									Üyesi olduğumuz İzmir Ticaret Odası’nın üyeleri için geçerli davranış kurallarına
+									www.izto.org.tr adresinden ulaşılabilir.
+								</p>
+							</div>
+							<div class="col-lg-4 d-flex justify-content-center align-items-center">
+								<div class="logo-container">
+									<img src="../images/logo-lower-text.svg" alt="logo" title="Mapto Logo">
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="accordion mt-3" id="pageCollapse">
+									<div class="card">
+										<div class="card-header">
+											<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne">
+												Sakaryalı Kebabçı Mahmut Efendi Yeri <strong>Nerede</strong> ?
+											</button>
+										</div>
+										<div id="collapseOne" class="collapse show" data-parent="#pageCollapse">
+											<div class="card-body">
+												Sakaryalı Kebabçı Mahmut Efendi
+												Camikebir, İstasyon Cad. No:26, 11500 Osmaneli/Bilecik adresinde bulunmaktadır.													</div>
+										</div>
+									</div>
+
+									<div class="card">
+										<div class="card-header">
+											<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+												Collapsible Group Item #2
+											</button>
+										</div>
+										<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#pageCollapse">
+											<div class="card-body">
+												Some placeholder content for the second accordion panel. This panel is hidden by default.
+											</div>
+										</div>
+									</div>
+
+									<div class="card">
+										<div class="card-header">
+											<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+												Collapsible Group Item #3
+											</button>
+										</div>
+										<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#pageCollapse">
+											<div class="card-body">
+												And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="row">
+									<div class="col-lg-7">
+										<ul class="content-page__share">
+											<li class="share__item"><a href="javascript:void(0)"><i class="far fa-share-alt"></i>Paylaş</a></li>
+											<li class="share__item"><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="share__item"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+											<li class="share__item"><a href="javascript:void(0)"><i class="far fa-envelope"></i></a></li>
+											<li class="share__item"><a href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a></li>
+											<li class="share__item"><a href="javascript:void(0)"><i class="fab fa-pinterest-p"></i></a></li>
+											<li class="share__item"><a href="javascript:void(0)"><i class="far fa-plus"></i></a></li>
+										</ul>
+									</div>
+									<div class="col-lg-5 d-flex align-items-center justify-content-lg-end">
+										<div class="content-page__actions">
+											<a href="javascript:void(0)" class="action__link"><i class="far fa-print"></i>Yazdır</a>
+											<a href="javascript:void(0)" class="action__link"><i class="far fa-eye"></i>3324 Görüntüleme</a>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<h4 class="section-title mb-4">diğer <span>sayfalar</span></h4>
+						<h5 class="sidebar-title">kurumsal</h5>
+						<ul class="sidebar-nav">
+							<li class="sidebar-nav__item sidebar-submenu">
+								<a href="javascript:void(0)" class="item__link sidebar-submenu__item__link">Hakkımızda</a>
+								<ul class="sidebar-submenu__nav">
+									<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">lorem ipsum</a></li>
+									<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">lorem ipsum</a></li>
+									<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">lorem ipsum</a></li>
+									<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">lorem ipsum</a></li>
+								</ul>
+							</li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">İletişim</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Yardım (S.S.S)</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Hİzmet Sözleşmesİ</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Gİzlİlİk Sözleşmesİ</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">İçerik Polİtİkası</a></li>
+						</ul>
+						<h5 class="sidebar-title">ÜYELİK</h5>
+						<ul class="sidebar-nav">
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">İŞLETME PLANLARI</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Fİrma EkleME</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Sİte Haritası</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Tüm Sektörler</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Etİketler</a></li>
+						</ul>
+						<h5 class="sidebar-title">SERVİSLERİMİZ</h5>
+						<ul class="sidebar-nav">
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Reklam Servİsİ</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Kurumsal İlan</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">İNDİRİM FIRSATLARI</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Kurumsal PR</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Sektörel Data</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Sektörel ARGE</a></li>
+							<li class="sidebar-nav__item"><a href="javascript:void(0)" class="item__link">Kampanyalar</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-lg-4 px-3 py-5 map" style="background-image: url('../images/world-map.svg')">
+                <h5 class="footer-title">SELECT OUY COUNTRY</h5>
+                <div class="row no-gutters my-3">
+                    <div class="col-md-10 pr-0 pr-md-1">
+                        <div class="dropdown footer-dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">türkiye</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 pl-0 pl-md-1 mt-3 mt-md-0">
+                        <div class="dropdown footer-dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">tl</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer-explanation">Sitemizde yayınlanan içeriklerin tamamı ulusal ticaret kanunları hükmünde yasal ve kişisel verileri koruma kurallarına uygun olarak yayınlanmaktadır.</p>
+                <p class="footer-explanation">Tüm hakları saklıdır © 2020</p>
+                <div class="row no-gutters mt-3">
+                    <div class="col-5 d-flex justify-content-start align-items-center">
+                        <div class="footer-logo"><img src="../images/logo-white.svg" class="w-100" alt="logo"></div>
+                    </div>
+                    <div class="col-7 d-flex justify-content-start align-items-center">
+                        <div class="footer-social">
+                            <ul>
+                                <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 px-1 py-3 px-md-3 py-md-5">
+                <h5 class="footer-title">kurumsal</h5>
+                <ul class="footer-menu bordered">
+                    <li><a href="javascript:void(0)">Hakkımızda</a></li>
+                    <li><a href="javascript:void(0)">İletişim</a></li>
+                    <li><a href="javascript:void(0)">Yardım (S.S.S)</a></li>
+                    <li><a href="javascript:void(0)">Hizmet Sözleşmesi</a></li>
+                    <li><a href="javascript:void(0)">Gizlilik Sözleşmesi</a></li>
+                    <li><a href="javascript:void(0)">İçerik Politikası</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-6 px-1 py-3 px-md-3 py-md-5">
+                <h5 class="footer-title">kategoriler</h5>
+                <ul class="footer-menu bordered">
+                    <li><a href="javascript:void(0)">Firma Rehberi</a></li>
+                    <li><a href="javascript:void(0)">Ürünler</a></li>
+                    <li><a href="javascript:void(0)">İş - Eleman İlanları</a></li>
+                    <li><a href="javascript:void(0)">Fuar ve Etkinlikler</a></li>
+                    <li><a href="javascript:void(0)">Müşteri Yorumları</a></li>
+                    <li><a href="javascript:void(0)">Şikayetler</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-6 px-1 py-3 px-md-3 py-md-5">
+                <h5 class="footer-title">servislerimiz</h5>
+                <ul class="footer-menu bordered">
+                    <li><a href="javascript:void(0)">Reklam Servisi</a></li>
+                    <li><a href="javascript:void(0)">Kurumsal İlan</a></li>
+                    <li><a href="javascript:void(0)">Kurumsal PR</a></li>
+                    <li><a href="javascript:void(0)">Sektörel Data</a></li>
+                    <li><a href="javascript:void(0)">Sektörel ARGE</a></li>
+                    <li><a href="javascript:void(0)">Kampanyalar</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-6 px-1 py-3 px-md-3 py-md-5">
+                <h5 class="footer-title">üyelik</h5>
+                <ul class="footer-menu">
+                    <li><a href="javascript:void(0)">Kayıt Ol</a></li>
+                    <li><a href="javascript:void(0)">Firma Ekle</a></li>
+                    <li><a href="javascript:void(0)">Şifre Sıfırlama</a></li>
+                    <li><a href="javascript:void(0)">Site Haritası</a></li>
+                    <li><a href="javascript:void(0)">Tüm Sektörler</a></li>
+                    <li><a href="javascript:void(0)">Etiketler</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="alphabetical-order">
+                    <p class="alp-order__text">Dünya Çapında faaliyet gösteren B2B sektörlerin alfabetik listesi</p>
+                    <ul class="alp-order__list">
+                        <li><a href="javascript:void(0)">a</a></li>
+                        <li><a href="javascript:void(0)">b</a></li>
+                        <li><a href="javascript:void(0)">c</a></li>
+                        <li><a href="javascript:void(0)">d</a></li>
+                        <li><a href="javascript:void(0)">e</a></li>
+                        <li><a href="javascript:void(0)">f</a></li>
+                        <li><a href="javascript:void(0)">g</a></li>
+                        <li><a href="javascript:void(0)">h</a></li>
+                        <li><a href="javascript:void(0)">ı</a></li>
+                        <li><a href="javascript:void(0)">j</a></li>
+                        <li><a href="javascript:void(0)">k</a></li>
+                        <li><a href="javascript:void(0)">l</a></li>
+                        <li><a href="javascript:void(0)">m</a></li>
+                        <li><a href="javascript:void(0)">n</a></li>
+                        <li><a href="javascript:void(0)">o</a></li>
+                        <li><a href="javascript:void(0)">p</a></li>
+                        <li><a href="javascript:void(0)">q</a></li>
+                        <li><a href="javascript:void(0)">r</a></li>
+                        <li><a href="javascript:void(0)">s</a></li>
+                        <li><a href="javascript:void(0)">t</a></li>
+                        <li><a href="javascript:void(0)">u</a></li>
+                        <li><a href="javascript:void(0)">v</a></li>
+                        <li><a href="javascript:void(0)">w</a></li>
+                        <li><a href="javascript:void(0)">x</a></li>
+                        <li><a href="javascript:void(0)">y</a></li>
+                        <li><a href="javascript:void(0)">z</a></li>
+                        <li><a href="javascript:void(0)">#</a></li>
+                        <li><a href="javascript:void(0)">1-9</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<section class="mobile-bottom-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col"><a href="javascript:void(0)" class="mobile-bottom-bar__icon"><i class="far fa-search"></i></a></div>
+            <div class="col"><a href="javascript:void(0)" class="mobile-bottom-bar__icon"><i class="far fa-location"></i></a></div>
+            <div class="col"><a href="javascript:void(0)" class="mobile-bottom-bar__icon"><i class="far fa-shopping-cart"></i></a></div>
+            <div class="col"><a href="javascript:void(0)" class="mobile-bottom-bar__icon"><i class="far fa-user-plus"></i></a></div>
+        </div>
+    </div>
+</section>
+
+	<div class="cookie">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 d-flex justify-content-center justify-content-lg-start align-items-center">
+                <p class="text-center text-lg-left"><strong>Çerezler:</strong> En iyi kullanıcı deneyimini sağlamak ve dolaşımlarını geliştirmek için çerez(cookies) kullanıyoruz. Web sitemizi kullanarak, çerez politikamızı kabul etmiş bulunuyorsunuz.
+                    Sitemizde yayınlanan firma, kurum, kuruluş ve diğer işletmelerin isim, iletişim, konum bilgileri üçüncü parti sağlayıcılardan temin edildiğinden firmamız hiç bir şekilde sorumlu tutulamaz.</p>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center justify-content-lg-end align-items-center">
+                <a href="javascript:void(0)" class="btn btn-primary-outline">DETAYLAR</a>
+                <a href="javascript:void(0)" class="btn btn-primary cookie__close">ANLADIM</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	<!-- add-company -->
+	<div class="modal fade" id="add-company" data-backdrop="static" data-keyboard="false" tabindex="1" role="dialog" >
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal">
+						<i class="far fa-times"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- sign-in -->
+	<div class="modal fade" id="sign-in" data-backdrop="static" data-keyboard="false" tabindex="1" role="dialog" >
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal">
+						<i class="far fa-times"></i>
+					</button>
+					<div class="row no-gutters">
+						<div class="col-lg-5 left-block px-4 py-4 py-lg-5">
+							<h5 class="mt-0 mt-lg-5">TEKRAR MERHABA</h5>
+							<p class="mt-3">Profesyonel iş servislerine katılmak için Mapto hesabınıza ait bilgilerinizi giriniz</p>
+							<p class="mt-3 mt-lg-5 mb-3"><strong>Sosyal medya hesaplarınızla giriş yapın</strong></p>
+							<div class="social-login">
+								<button class="btn">
+									<img src="images/google.webp" alt="">
+									<p><strong>Google</strong> ile Giriş Yap</p>
+								</button>
+								<button class="btn">
+									<img src="images/facebook.webp" alt="">
+									<p><strong>Facebook</strong> ile Giriş Yap</p>
+								</button>
+								<button class="btn">
+									<img src="images/linkedin.webp" alt="">
+									<p><strong>Linkedin</strong> ile Giriş Yap</p>
+								</button>
+							</div>
+						</div>
+						<div class="col-lg-7 right-block px-4 py-4 py-lg-5">
+							<h4 class=""><span>giriş</span> formu</h4>
+							<form action="" class="mt-4">
+								<input type="email" class="form-control" required placeholder="E-posta Adresiniz">
+								<input type="password" class="form-control" required placeholder="Şifre">
+								<div class="custom-control custom-checkbox my-3">
+									<input type="checkbox" class="custom-control-input" id="customCheck1">
+									<label class="custom-control-label" for="customCheck1">Bu cihazda oturumum sürekli açık kalsın</label>
+								</div>
+								<button class="btn btn-primary btn-block">GİRİŞ YAPIN</button>
+							</form>
+							<p class="mt-5 text-muted">ya da</p>
+							<h5>Hesabınız Yok Mu?</h5>
+							<button class="btn btn-primary btn-block mt-3">HEMEN KAYIT OLUN</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- company-report -->
+	<div class="modal fade" id="company-report" data-backdrop="static" data-keyboard="false" tabindex="1" role="dialog" >
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal">
+						<i class="far fa-times"></i>
+					</button>
+					<h4>BİLDİRİ <span>FORMU</span></h4>
+					<p>Bu girişi neden bildirmek istiyorsunuz ?</p>
+					<form action="">
+						<div class="row no-gutters">
+							<div class="col-6">
+								<select class="custom-select">
+									<option value="" selected>Bu yerle alakalı değil</option>
+									<option value="">Çıkar çatışması</option>
+									<option value="">Rahatsız edici veya müstehcen</option>
+									<option value="">Gizlilikle ilgili sorun</option>
+									<option value="">Yasal sorun</option>
+								</select>
+							</div>
+							<div class="col-6">
+								<input type="email" class="form-control" placeholder="E-posta Adresiniz*">
+							</div>
+							<div class="col-12">
+								<textarea name="" cols="30" rows="5" class="form-control" placeholder="Yorumunuzu detaylandırın"></textarea>
+							</div>
+							<div class="col-12 d-flex flex-row justify-content-between align-items-end">
+								<label for="security-question">Güvenlik Sorusu:  1+1= </label>
+								<input type="text" id="security-question" class="security-question">
+							</div>
+							<div class="col-12 mt-3">
+								<button type="submit" class="btn btn-primary btn-block report-btn">RAPORLA</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.js" defer></script></body>
+
+</html>
